@@ -18,13 +18,19 @@ printf("Hello World") --> std::cout << "Hello World";
 */
 
 
-#include <stdio.h>
-int main() 
+#include<iostream>
+using namespace std;
+
+int main()
 {
-    float cm, inches;
-    printf("Enter a length in cm : ");
-    scanf("%f",&cm);
-    inches = cm / 2.54;
-    printf("Length in inches is %f \n", inches);
-    return 0;
+	float len1,len2;
+	
+	cout << "Enter the length in cm : " ;
+	cin>> len1;
+	
+	len2 = len1 / 2.54;
+	cout << "Length in inches is inches : " << len2 << endl;
+	
+	
+	return 0;
 }  
