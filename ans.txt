@@ -1,0 +1,1 @@
+Enter Employee Type : Enter Salary : Enter OT hours : Net Salary is :13400
